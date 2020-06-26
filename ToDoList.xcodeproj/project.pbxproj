@@ -115,6 +115,7 @@
 		D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */; };
 		D3C942D8247EED7000259C3F /* SettingsFragmentPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C942D7247EED7000259C3F /* SettingsFragmentPO.swift */; };
 		D3CCA02C247EA6D60041D85A /* AddTaskFragmentPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA02B247EA6D60041D85A /* AddTaskFragmentPO.swift */; };
+		D3FB4F7724A653F100BE2FE2 /* ThemesFragmentPO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesFragmentPO.swift */; };
 		E5C09EA00C6E3B05D401FC83 /* Pods_WatchApp_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044EF5F72611B448293FA7 /* Pods_WatchApp_Extension.framework */; };
 /* End PBXBuildFile section */
 
@@ -302,6 +303,7 @@
 		D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentWithAddTaskButton.swift; sourceTree = "<group>"; };
 		D3C942D7247EED7000259C3F /* SettingsFragmentPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFragmentPO.swift; sourceTree = "<group>"; };
 		D3CCA02B247EA6D60041D85A /* AddTaskFragmentPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskFragmentPO.swift; sourceTree = "<group>"; };
+		D3FB4F7624A653F100BE2FE2 /* ThemesFragmentPO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesFragmentPO.swift; sourceTree = "<group>"; };
 		DAFA8D0746D54D0F29A8E5EC /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -577,6 +579,7 @@
 				D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentPO.swift */,
 				D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */,
 				D3C942D7247EED7000259C3F /* SettingsFragmentPO.swift */,
+				D3FB4F7624A653F100BE2FE2 /* ThemesFragmentPO.swift */,
 			);
 			path = "Page Objects";
 			sourceTree = "<group>";
@@ -1051,6 +1054,7 @@
 				D3BDDA012476A472004A49E0 /* RecordTests.swift in Sources */,
 				D3BDDA0F2477D8A6004A49E0 /* CustomIntervalActionSheetPO.swift in Sources */,
 				D3BDDA0B2477D876004A49E0 /* TomorrowTasksFragmentPO.swift in Sources */,
+				D3FB4F7724A653F100BE2FE2 /* ThemesFragmentPO.swift in Sources */,
 				D3C942D8247EED7000259C3F /* SettingsFragmentPO.swift in Sources */,
 				D3BDD9FC2476A1BC004A49E0 /* OverviewFragmentPO.swift in Sources */,
 				D3BDDA0D2477D890004A49E0 /* NextSevenDaysFragmentPO.swift in Sources */,
