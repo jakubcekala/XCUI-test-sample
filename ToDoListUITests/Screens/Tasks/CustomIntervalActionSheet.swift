@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CustomIntervalActionSheetPO: PageObject {
+class CustomIntervalActionSheet: PageObject {
     
 
 }

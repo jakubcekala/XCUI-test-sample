@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 
-class SettingsFragmentPO: PageObject {
+class SettingsFragmentScreen: PageObject {
     
     let application = XCUIApplication()
     
@@ -30,9 +30,9 @@ class SettingsFragmentPO: PageObject {
         return StartPageDialog()
     }
 
-    func clickOnThemeButton() -> ThemesFragmentPO {
+    func clickOnThemeButton() -> ThemesFragmentScreen {
         themeButton.tap()
-        return ThemesFragmentPO()
+        return ThemesFragmentScreen()
     }
     
     func clickOnLanguageButton() -> LanguageDialog {
@@ -53,7 +53,7 @@ class SettingsFragmentPO: PageObject {
             startPageTiles = application.tables.staticTexts
         }
         
-        func selectStartPage(startPage: StartPage) -> SettingsFragmentPO {
+        func selectStartPage(startPage: StartPage) -> SettingsFragmentScreen {
             switch startPage {
             case .overview:
                 startPageTiles["Overview"].tap()
@@ -66,12 +66,12 @@ class SettingsFragmentPO: PageObject {
             case .next7Days:
                 startPageTiles["Next 7 Days"].tap()
             }
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
-        func cancelDialog() -> SettingsFragmentPO {
+        func cancelDialog() -> SettingsFragmentScreen {
             startPageTiles["Cancel"].tap()
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
         enum StartPage {
@@ -87,7 +87,7 @@ class SettingsFragmentPO: PageObject {
             languageTiles = application.tables.staticTexts
         }
         
-        func selectLanguage(language: Language) -> SettingsFragmentPO {
+        func selectLanguage(language: Language) -> SettingsFragmentScreen {
             switch language {
             case .english:
                 languageTiles["English"].tap()
@@ -96,12 +96,12 @@ class SettingsFragmentPO: PageObject {
             case .traditionalChinese:
                 languageTiles["Traditional Chinese"].tap()
             }
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
-        func cancelDialog() -> SettingsFragmentPO {
+        func cancelDialog() -> SettingsFragmentScreen {
             languageTiles["Cancel"].tap()
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
         enum Language {
@@ -117,19 +117,19 @@ class SettingsFragmentPO: PageObject {
             openWebLinksTiles = application.tables.staticTexts
         }
         
-        func selectLanguage(openWebLinks: OpenWebLink) -> SettingsFragmentPO {
+        func selectLanguage(openWebLinks: OpenWebLink) -> SettingsFragmentScreen {
             switch openWebLinks {
             case .inApp:
                 openWebLinksTiles["In App"].tap()
             case .safari:
                 openWebLinksTiles["Romanian"].tap()
             }
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
-        func cancelDialog() -> SettingsFragmentPO {
+        func cancelDialog() -> SettingsFragmentScreen {
             openWebLinksTiles["Cancel"].tap()
-            return SettingsFragmentPO()
+            return SettingsFragmentScreen()
         }
         
         enum OpenWebLink {

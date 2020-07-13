@@ -8,9 +8,9 @@
 
 import XCTest
 
-class TomorrowTasksFragmentPO: TasksFragment {
+class NextSevenDaysFragmentScreen: TasksFragment {
 
-    let fragmentName = "Tommorow"
+    let fragmentName = "Next 7 Days"
     
     override init() {
         super.init()

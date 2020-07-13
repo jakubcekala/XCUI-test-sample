@@ -8,7 +8,7 @@
 
 import XCTest
 
-class OverviewFragmentPO: FragmentWithAddTaskButton {
+class OverviewFragmentScreen: FragmentWithAddTaskButton {
     
     let application = XCUIApplication()
     
@@ -31,38 +31,38 @@ class OverviewFragmentPO: FragmentWithAddTaskButton {
         settingsButton = application.navigationBars["ToDoList.HomeView"].buttons["settingsIcon"]
     }
     
-    func clickOnAllTasksTile() -> AllTasksFragmentPO {
+    func clickOnAllTasksTile() -> AllTasksFragmentScreen {
         allTasksTile.tap()
-        return AllTasksFragmentPO()
+        return AllTasksFragmentScreen()
     }
     
-    func clickOnTodayTile() -> TodayTasksFragmentPO {
+    func clickOnTodayTile() -> TodayTasksFragmentScreen {
         todayTile.tap()
-        return TodayTasksFragmentPO()
+        return TodayTasksFragmentScreen()
     }
     
-    func clickOnTomorrowTile() -> TomorrowTasksFragmentPO {
+    func clickOnTomorrowTile() -> TomorrowTasksFragmentScreen {
         tomorrowTile.tap()
-        return TomorrowTasksFragmentPO()
+        return TomorrowTasksFragmentScreen()
     }
     
-    func clickOnNextSevenDaysTile() -> NextSevenDaysFragmentPO {
+    func clickOnNextSevenDaysTile() -> NextSevenDaysFragmentScreen {
         nextSevenDaysTile.tap()
-        return NextSevenDaysFragmentPO()
+        return NextSevenDaysFragmentScreen()
     }
     
-    func clickOnCustomIntervalTile() -> CustomIntervalActionSheetPO {
+    func clickOnCustomIntervalTile() -> CustomIntervalActionSheetScreen {
         costomIntervalTile.tap()
-        return CustomIntervalActionSheetPO()
+        return CustomIntervalActionSheetScreen()
     }
     
-    func clickOnCompletedTile() -> CompletedTasksFragmentPO {
+    func clickOnCompletedTile() -> CompletedTasksFragmentScreen {
         completedTile.tap()
-        return CompletedTasksFragmentPO()
+        return CompletedTasksFragmentScreen()
     }
     
-    func clickOnSettingsButton() -> SettingsFragmentPO {
+    func clickOnSettingsButton() -> SettingsFragmentScreen {
         settingsButton.tap()
-        return SettingsFragmentPO()
+        return SettingsFragmentScreen()
     }
 }

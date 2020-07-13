@@ -28,47 +28,47 @@ class ToDoListUITests: XCTestCase {
         
     }
 
-    func testExample1() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnAllTasksTile().clickOnAddTaskButton()
-    }
-    
-    func testExample2() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnTodayTile()
-    }
-    
-    func testExample3() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnTomorrowTile()
-    }
-    
-    func testExample4() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnNextSevenDaysTile()
-    }
-    
-    func testExample5() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnCustomIntervalTile()
-    }
-    
-    func testExample6() throws {
-        let overviewFragment = OverviewFragmentPO()
-        overviewFragment.clickOnCompletedTile()
-    }
-    
-    func testExample7() throws {
-        let overviewFragment = OverviewFragmentPO()
-        let addTaskFragment = overviewFragment.clickOnAddTaskButton()
-    }
-
-    func testExample8() throws {
-        let overviewFragment = OverviewFragmentPO()
-        sleep(3)
-        let adsas = overviewFragment.clickOnAddTaskButton()
-        sleep(3)
-    }
+//    func testExample1() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnAllTasksTile().clickOnAddTaskButton()
+//    }
+//    
+//    func testExample2() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnTodayTile()
+//    }
+//    
+//    func testExample3() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnTomorrowTile()
+//    }
+//    
+//    func testExample4() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnNextSevenDaysTile()
+//    }
+//    
+//    func testExample5() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnCustomIntervalTile()
+//    }
+//    
+//    func testExample6() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        overviewFragment.clickOnCompletedTile()
+//    }
+//    
+//    func testExample7() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        let addTaskFragment = overviewFragment.clickOnAddTaskButton()
+//    }
+//
+//    func testExample8() throws {
+//        let overviewFragment = OverviewFragmentPO()
+//        sleep(3)
+//        let adsas = overviewFragment.clickOnAddTaskButton()
+//        sleep(3)
+//    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {

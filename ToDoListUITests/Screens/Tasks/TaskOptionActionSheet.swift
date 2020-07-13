@@ -9,7 +9,7 @@
 import Foundation
 import XCTest
 
-class TaskOptionActionSheetPO: PageObject {
+class TaskOptionActionSheet: PageObject {
     
     let editButton: XCUIElement
     let commentsButton: XCUIElement
@@ -25,9 +25,9 @@ class TaskOptionActionSheetPO: PageObject {
         cancelButton = application.tables.staticTexts["Cancel"]
     }
     
-    func clickOnEditButton() -> AddTaskFragmentPO {
+    func clickOnEditButton() -> AddTaskFragmentScreen {
         editButton.tap()
-        return AddTaskFragmentPO()
+        return AddTaskFragmentScreen()
     }
     
     func clickOnCommentsButton() {

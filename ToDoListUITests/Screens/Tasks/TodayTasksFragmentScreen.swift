@@ -8,7 +8,7 @@
 
 import XCTest
 
-class TodayTasksFragmentPO: TasksFragment {
+class TodayTasksFragmentScreen: TasksFragment {
 
     let fragmentName = "Today"
     

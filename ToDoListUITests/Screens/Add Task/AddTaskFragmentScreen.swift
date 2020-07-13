@@ -8,7 +8,7 @@
 
 import XCTest
 
-class AddTaskFragmentPO {
+class AddTaskFragmentScreen {
     
     let application = XCUIApplication()
     
@@ -29,7 +29,8 @@ class AddTaskFragmentPO {
         return FragmentWithAddTaskButton()
     }
     
-    func typeTaskContentWhenIsFocused(taskTile: String) {
+    func typeTaskContentWhenIsFocused(taskTile: String) -> AddTaskFragmentScreen {
         XCUIApplication().typeText(taskTile)
+        return self
     }
 }

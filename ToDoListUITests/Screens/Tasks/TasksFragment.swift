@@ -12,15 +12,16 @@ class TasksFragment: FragmentWithAddTaskButton {
     
     let application = XCUIApplication()
     
-    func taskIsPresent(name: String) {
+    func taskIsPresent(name: String) -> TasksFragment {
         if(!application.tables.staticTexts["name"].exists){
             XCTAssertThrowsError(name + " task does not exist")
         }
+        return self
     }
     
-    func clickOnTaskWithName(name: String) -> TaskOptionActionSheetPO {
+    func clickOnTaskWithName(name: String) -> TaskOptionActionSheetScreen {
         taskIsPresent(name: name)
         application.tables.staticTexts[name].tap()
-        return TaskOptionActionSheetPO()
+        return TaskOptionActionSheetScreen()
     }
 }
