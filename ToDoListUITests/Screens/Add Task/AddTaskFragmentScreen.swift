@@ -14,10 +14,12 @@ class AddTaskFragmentScreen {
     
     let cancelButton: XCUIElement
     let saveButton: XCUIElement
+    let dateAndTimeButton: XCUIElement
     
     init() {
         cancelButton = application.navigationBars["Add task"].buttons["Cancel"]
         saveButton = application.navigationBars["Add task"].buttons["Save"]
+        dateAndTimeButton = application.buttons["Date & Time"]
     }
     
     func clickOnCancelButton() -> FragmentWithAddTaskButton {
@@ -26,11 +28,17 @@ class AddTaskFragmentScreen {
     }
     
     func clickOnSaveButtonWithName() -> FragmentWithAddTaskButton {
+        saveButton.tap()
         return FragmentWithAddTaskButton()
     }
     
     func typeTaskContentWhenIsFocused(taskTile: String) -> AddTaskFragmentScreen {
         XCUIApplication().typeText(taskTile)
         return self
+    }
+    
+    func clickOnDateAndTime() -> DateAndTimeActionSheet {
+        dateAndTimeButton.tap()
+        return DateAndTimeActionSheet()
     }
 }

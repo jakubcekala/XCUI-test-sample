@@ -16,19 +16,24 @@ class OverviewFragmentScreen: FragmentWithAddTaskButton {
     let todayTile: XCUIElement
     let tomorrowTile: XCUIElement
     let nextSevenDaysTile: XCUIElement
-    let costomIntervalTile: XCUIElement
+    let customIntervalTile: XCUIElement
     let completedTile: XCUIElement
     
     let settingsButton: XCUIElement
+    let errorNotification: XCUIElement
     
     override init() {
         allTasksTile = application.tables.staticTexts["All Tasks"]
         todayTile = application.tables.staticTexts["Today"]
         tomorrowTile = application.tables.staticTexts["Tomorrow"]
         nextSevenDaysTile = application.tables.staticTexts["Next 7 Days"]
-        costomIntervalTile = application.tables.staticTexts["Custom Interval"]
+        customIntervalTile = application.tables.staticTexts["Custom Interval"]
         completedTile = application.tables.staticTexts["Completed"]
         settingsButton = application.navigationBars["ToDoList.HomeView"].buttons["settingsIcon"]
+        errorNotification = application.staticTexts["You are not logged in iCloud. Your tasks won't be synced!"]
+        if (errorNotification.isHittable){
+            errorNotification.tap()
+        }
     }
     
     func clickOnAllTasksTile() -> AllTasksFragmentScreen {
@@ -51,9 +56,9 @@ class OverviewFragmentScreen: FragmentWithAddTaskButton {
         return NextSevenDaysFragmentScreen()
     }
     
-    func clickOnCustomIntervalTile() -> CustomIntervalActionSheetScreen {
-        costomIntervalTile.tap()
-        return CustomIntervalActionSheetScreen()
+    func clickOnCustomIntervalTile() -> CustomIntervalActionSheet {
+        customIntervalTile.tap()
+        return CustomIntervalActionSheet()
     }
     
     func clickOnCompletedTile() -> CompletedTasksFragmentScreen {

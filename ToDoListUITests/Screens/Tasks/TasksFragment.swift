@@ -19,9 +19,9 @@ class TasksFragment: FragmentWithAddTaskButton {
         return self
     }
     
-    func clickOnTaskWithName(name: String) -> TaskOptionActionSheetScreen {
+    func clickOnTaskWithName(name: String) -> TaskOptionActionSheet {
         taskIsPresent(name: name)
         application.tables.staticTexts[name].tap()
-        return TaskOptionActionSheetScreen()
+        return TaskOptionActionSheet()
     }
 }
