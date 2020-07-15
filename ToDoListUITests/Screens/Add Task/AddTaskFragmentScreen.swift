@@ -15,11 +15,13 @@ class AddTaskFragmentScreen {
     let cancelButton: XCUIElement
     let saveButton: XCUIElement
     let dateAndTimeButton: XCUIElement
+    let priorityButton: XCUIElement
     
     init() {
         cancelButton = application.navigationBars["Add task"].buttons["Cancel"]
         saveButton = application.navigationBars["Add task"].buttons["Save"]
         dateAndTimeButton = application.buttons["Date & Time"]
+        priorityButton = application.buttons["Priority"]
     }
     
     func clickOnCancelButton() -> FragmentWithAddTaskButton {
@@ -40,5 +42,10 @@ class AddTaskFragmentScreen {
     func clickOnDateAndTime() -> DateAndTimeActionSheet {
         dateAndTimeButton.tap()
         return DateAndTimeActionSheet()
+    }
+    
+    func clickOnPriorityButtonNotSet() -> TaskPriorityActionSheet {
+        priorityButton.tap()
+        return TaskPriorityActionSheet()
     }
 }

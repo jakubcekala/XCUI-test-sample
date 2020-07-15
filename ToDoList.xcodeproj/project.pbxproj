@@ -118,6 +118,7 @@
 		D3FB4F7724A653F100BE2FE2 /* ThemesFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */; };
 		D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */; };
 		D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */; };
+		D3FB4F7E24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */; };
 		E5C09EA00C6E3B05D401FC83 /* Pods_WatchApp_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3044EF5F72611B448293FA7 /* Pods_WatchApp_Extension.framework */; };
 /* End PBXBuildFile section */
 
@@ -308,6 +309,7 @@
 		D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesFragmentScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksTests.swift; sourceTree = "<group>"; };
 		D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeActionSheet.swift; sourceTree = "<group>"; };
+		D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriorityActionSheet.swift; sourceTree = "<group>"; };
 		DAFA8D0746D54D0F29A8E5EC /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -601,6 +603,7 @@
 				D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */,
 				D38D5D02248ECE36009CD18C /* TaskOptionActionSheet.swift */,
 				D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */,
+				D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -1075,6 +1078,7 @@
 				D3BDDA0D2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift in Sources */,
 				D3BDDA122477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift in Sources */,
 				D3BDDA032476B651004A49E0 /* TasksFragment.swift in Sources */,
+				D3FB4F7E24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift in Sources */,
 				D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
