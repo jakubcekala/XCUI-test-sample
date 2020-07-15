@@ -14,7 +14,7 @@ class TodayTasksFragmentScreen: TasksFragment {
     
     override init() {
         super.init()
-        if(!application.tables.staticTexts[fragmentName].exists){
+        if(!application.navigationBars[fragmentName].staticTexts[fragmentName].exists){
             XCTAssertThrowsError(fragmentName + " is not available")
         }
     }

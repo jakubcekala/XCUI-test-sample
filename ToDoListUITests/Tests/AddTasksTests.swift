@@ -19,9 +19,6 @@ class AddTasksTests: XCTestCase {
         OverviewFragmentScreen()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
-            .clickOnDateAndTime()
-            .setDataOnPicker(day: "Jul 15", hour: "11", minute: "25", amPm: "AM")
-            .clickOnSaveButton()
             .clickOnSaveButtonWithName()
     }
     
@@ -30,5 +27,63 @@ class AddTasksTests: XCTestCase {
             .clickOnAddTaskButton()
             .clickOnSaveButtonWithoutName()
             .errorDialogIsVisible()
+    }
+    
+    func testAddCorrectTaskWithDateAndTime() throws {
+        OverviewFragmentScreen()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnDateAndTime()
+            .setDataOnPicker(day: "Jul 10", hour: "10", minute: "30", amPm: "AM")
+            .clickOnSaveButton()
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddCorrectTaskWithPriority() throws {
+        OverviewFragmentScreen()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnPriorityButtonNotSet().selectStartPage(priority: TaskPriorityActionSheet.Priority.high)
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddTaskFromAllTasks() throws {
+        OverviewFragmentScreen()
+            .clickOnAllTasksTile()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddTaskFromTodayTasks() throws {
+        OverviewFragmentScreen()
+            .clickOnTodayTile()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddTaskFromTomorrowTasks() throws {
+        OverviewFragmentScreen()
+            .clickOnTomorrowTile()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddTaskFromNextSevenDaysTasks() throws {
+        OverviewFragmentScreen()
+            .clickOnNextSevenDaysTile()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnSaveButtonWithName()
+    }
+    
+    func testAddTaskFromCompletedTasks() throws {
+        OverviewFragmentScreen()
+            .clickOnCompletedTile()
+            .clickOnAddTaskButton()
+            .typeTaskContentWhenIsFocused(taskTile: "Test")
+            .clickOnSaveButtonWithName()
     }
 }

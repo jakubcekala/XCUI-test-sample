@@ -10,11 +10,11 @@ import XCTest
 
 class TomorrowTasksFragmentScreen: TasksFragment {
 
-    let fragmentName = "Tommorow"
+    let fragmentName = "Tomorrow"
     
     override init() {
         super.init()
-        if(!application.tables.staticTexts[fragmentName].exists){
+        if(!application.navigationBars[fragmentName].staticTexts[fragmentName].exists){
             XCTAssertThrowsError(fragmentName + " is not available")
         }
     }
