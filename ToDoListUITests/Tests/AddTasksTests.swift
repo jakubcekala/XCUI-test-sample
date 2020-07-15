@@ -15,7 +15,7 @@ class AddTasksTests: XCTestCase {
         XCUIApplication().launch()
     }
     
-    func test() {
+    func testAddCorrectTask() throws {
         OverviewFragmentScreen()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
@@ -24,5 +24,11 @@ class AddTasksTests: XCTestCase {
             .clickOnSaveButton()
             .clickOnSaveButtonWithName()
     }
-
+    
+    func testAddTaskWithoutName() throws {
+        OverviewFragmentScreen()
+            .clickOnAddTaskButton()
+            .clickOnSaveButtonWithoutName()
+            .errorDialogIsVisible()
+    }
 }

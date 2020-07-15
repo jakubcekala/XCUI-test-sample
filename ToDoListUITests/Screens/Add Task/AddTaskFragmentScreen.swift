@@ -34,6 +34,11 @@ class AddTaskFragmentScreen {
         return FragmentWithAddTaskButton()
     }
     
+    func clickOnSaveButtonWithoutName() -> ErrorNameDialog {
+        saveButton.tap()
+        return ErrorNameDialog()
+    }
+    
     func typeTaskContentWhenIsFocused(taskTile: String) -> AddTaskFragmentScreen {
         XCUIApplication().typeText(taskTile)
         return self
@@ -47,5 +52,32 @@ class AddTaskFragmentScreen {
     func clickOnPriorityButtonNotSet() -> TaskPriorityActionSheet {
         priorityButton.tap()
         return TaskPriorityActionSheet()
+    }
+    
+    class ErrorNameDialog: PageObject {
+        
+        let application = XCUIApplication()
+        
+        let okButton: XCUIElement
+        let errorLabel: XCUIElement
+        let errorDescLabel: XCUIElement
+        
+        override init() {
+            okButton = application.alerts["Error"].scrollViews.otherElements.buttons["OK"]
+            errorLabel = application.alerts["Error"].scrollViews.otherElements.staticTexts["Error"]
+            errorDescLabel = application.alerts["Error"].scrollViews.otherElements.staticTexts["You must name your task to save it"]
+        }
+        
+        func clickOnOkButton() -> AddTaskFragmentScreen {
+            okButton.tap()
+            return AddTaskFragmentScreen()
+        }
+        
+        func errorDialogIsVisible() -> ErrorNameDialog {
+            XCTAssertTrue(errorLabel.isHittable)
+            XCTAssertTrue(errorDescLabel.isHittable)
+            XCTAssertTrue(okButton.isHittable)
+            return self
+        }
     }
 }
