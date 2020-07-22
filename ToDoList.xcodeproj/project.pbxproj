@@ -597,6 +597,7 @@
 		D3BDD9FD2476A1C3004A49E0 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				D3D1732624C8B9E3001A0763 /* Action Sheets */,
 				D3CCA02A247EA6BA0041D85A /* Add Task */,
 				D3BDDA092477D859004A49E0 /* Tasks */,
 				D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */,
@@ -615,11 +616,7 @@
 				D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */,
 				D3BDDA0A2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift */,
 				D3BDDA0C2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift */,
-				D3BDDA0E2477D8A6004A49E0 /* CustomIntervalActionSheet.swift */,
 				D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */,
-				D38D5D02248ECE36009CD18C /* TaskOptionActionSheet.swift */,
-				D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */,
-				D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -631,6 +628,17 @@
 				D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */,
 			);
 			path = "Add Task";
+			sourceTree = "<group>";
+		};
+		D3D1732624C8B9E3001A0763 /* Action Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDDA0E2477D8A6004A49E0 /* CustomIntervalActionSheet.swift */,
+				D38D5D02248ECE36009CD18C /* TaskOptionActionSheet.swift */,
+				D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */,
+				D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */,
+			);
+			path = "Action Sheets";
 			sourceTree = "<group>";
 		};
 		D3FB4F7824BCDA3A00BE2FE2 /* Tests */ = {

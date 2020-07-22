@@ -37,7 +37,9 @@ class RecordTests: XCTestCase {
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["All Tasks"]/*[[".cells.staticTexts[\"All Tasks\"]",".staticTexts[\"All Tasks\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Asd"]/*[[".cells.staticTexts[\"Asd\"]",".staticTexts[\"Asd\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         app.children(matching: .window).element(boundBy: 0).tap()
-        
+        XCUIApplication().navigationBars["Tomorrow"].staticTexts["Tomorrow"].tap()
+        XCUIApplication().navigationBars["Today"].staticTexts["Today"].tap()
+                
     }
 
 }
