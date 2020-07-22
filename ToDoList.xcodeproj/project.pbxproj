@@ -101,10 +101,8 @@
 		62037A555E643865DCCD3F33 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC7B181B2DC875AF97CD49 /* Pods_ToDoList.framework */; platformFilter = ios; };
 		86336197EBFD98B1AAC5CD91 /* Pods_ToDoListWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E3FD3FFB4BD0B30642179D /* Pods_ToDoListWidget.framework */; };
 		D38D5D03248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D5D02248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift */; };
-		D3BDD9F42476A0A2004A49E0 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9F32476A0A2004A49E0 /* ToDoListUITests.swift */; };
 		D3BDD9FC2476A1BC004A49E0 /* OverviewFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */; };
 		D3BDD9FF2476A1F4004A49E0 /* PageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */; };
-		D3BDDA012476A472004A49E0 /* RecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA002476A472004A49E0 /* RecordTests.swift */; };
 		D3BDDA032476B651004A49E0 /* TasksFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA022476B651004A49E0 /* TasksFragment.swift */; };
 		D3BDDA062476B698004A49E0 /* AllTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA052476B698004A49E0 /* AllTasksFragmentScreen.swift */; };
 		D3BDDA082477D82D004A49E0 /* TodayTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */; };
@@ -300,11 +298,9 @@
 		C5098FCE09B9426066B9A29C /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
 		D38D5D02248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncompleatedTaskOptionActionSheet.swift; sourceTree = "<group>"; };
 		D3BDD9F12476A0A2004A49E0 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3BDD9F32476A0A2004A49E0 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		D3BDD9F52476A0A2004A49E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewFragmentScreen.swift; sourceTree = "<group>"; };
 		D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageObject.swift; sourceTree = "<group>"; };
-		D3BDDA002476A472004A49E0 /* RecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTests.swift; sourceTree = "<group>"; };
 		D3BDDA022476B651004A49E0 /* TasksFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFragment.swift; sourceTree = "<group>"; };
 		D3BDDA052476B698004A49E0 /* AllTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksFragmentScreen.swift; sourceTree = "<group>"; };
 		D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTasksFragmentScreen.swift; sourceTree = "<group>"; };
@@ -591,8 +587,6 @@
 			children = (
 				D3FB4F7824BCDA3A00BE2FE2 /* Tests */,
 				D3BDD9FD2476A1C3004A49E0 /* Screens */,
-				D3BDD9F32476A0A2004A49E0 /* ToDoListUITests.swift */,
-				D3BDDA002476A472004A49E0 /* RecordTests.swift */,
 				D3BDD9F52476A0A2004A49E0 /* Info.plist */,
 			);
 			path = ToDoListUITests;
@@ -1122,7 +1116,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BDDA062476B698004A49E0 /* AllTasksFragmentScreen.swift in Sources */,
-				D3BDD9F42476A0A2004A49E0 /* ToDoListUITests.swift in Sources */,
 				D3CCA02C247EA6D60041D85A /* AddTaskFragmentScreen.swift in Sources */,
 				D3BDDA082477D82D004A49E0 /* TodayTasksFragmentScreen.swift in Sources */,
 				D38D5D03248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift in Sources */,
@@ -1130,7 +1123,6 @@
 				D3BDD9FF2476A1F4004A49E0 /* PageObject.swift in Sources */,
 				D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */,
 				D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */,
-				D3BDDA012476A472004A49E0 /* RecordTests.swift in Sources */,
 				D3BDDA0F2477D8A6004A49E0 /* CustomIntervalActionSheet.swift in Sources */,
 				D3BDDA0B2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift in Sources */,
 				D3FB4F7724A653F100BE2FE2 /* ThemesFragmentScreen.swift in Sources */,
