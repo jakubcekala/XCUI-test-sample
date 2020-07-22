@@ -39,7 +39,18 @@ class RecordTests: XCTestCase {
         app.children(matching: .window).element(boundBy: 0).tap()
         XCUIApplication().navigationBars["Tomorrow"].staticTexts["Tomorrow"].tap()
         XCUIApplication().navigationBars["Today"].staticTexts["Today"].tap()
+
+
                 
+    }
+    
+    func testA() {
+        OverviewFragmentScreen()
+            .clickOnCustomIntervalTile()
+            .selectStartDate(startDate: "20 Jul 20")
+            .selectEndDate(endDate: "25 Jul 20")
+            .clickOnDoneButton()
+        Thread.sleep(forTimeInterval: TimeInterval.init(1000))
     }
 
 }
