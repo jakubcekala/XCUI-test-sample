@@ -115,6 +115,7 @@
 		D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */; };
 		D3C942D8247EED7000259C3F /* SettingsFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C942D7247EED7000259C3F /* SettingsFragmentScreen.swift */; };
 		D3CCA02C247EA6D60041D85A /* AddTaskFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */; };
+		D3D1732824C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */; };
 		D3FB4F7724A653F100BE2FE2 /* ThemesFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */; };
 		D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */; };
 		D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */; };
@@ -313,6 +314,7 @@
 		D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentWithAddTaskButton.swift; sourceTree = "<group>"; };
 		D3C942D7247EED7000259C3F /* SettingsFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFragmentScreen.swift; sourceTree = "<group>"; };
 		D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskFragmentScreen.swift; sourceTree = "<group>"; };
+		D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntervalFragmentScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesFragmentScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksTests.swift; sourceTree = "<group>"; };
 		D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeActionSheet.swift; sourceTree = "<group>"; };
@@ -617,6 +619,7 @@
 				D3BDDA0A2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift */,
 				D3BDDA0C2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift */,
 				D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */,
+				D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -1120,6 +1123,7 @@
 				D3CCA02C247EA6D60041D85A /* AddTaskFragmentScreen.swift in Sources */,
 				D3BDDA082477D82D004A49E0 /* TodayTasksFragmentScreen.swift in Sources */,
 				D38D5D03248ECE36009CD18C /* TaskOptionActionSheet.swift in Sources */,
+				D3D1732824C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift in Sources */,
 				D3BDD9FF2476A1F4004A49E0 /* PageObject.swift in Sources */,
 				D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */,
 				D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */,
