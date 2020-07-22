@@ -1,17 +1,17 @@
 //
-//  TaskOptionActionSheetPO.swift
+//  UncompleatedTaskOptionActionSheet.swift
 //  ToDoListUITests
 //
-//  Created by Jakub on 08/06/2020.
+//  Created by Jakub on 22/07/2020.
 //  Copyright © 2020 Radu Ursache - RanduSoft. All rights reserved.
 //
 
 import Foundation
 import XCTest
 
-class TaskOptionActionSheet: PageObject {
+class CompleatedTaskOptionActionSheet: PageObject {
     
-    let editButton: XCUIElement
+    let moveToInboxButton: XCUIElement
     let commentsButton: XCUIElement
     let remindersButton: XCUIElement
     let cancelButton: XCUIElement
@@ -19,15 +19,15 @@ class TaskOptionActionSheet: PageObject {
     let application = XCUIApplication()
     
     override init() {
-        editButton = application.tables.staticTexts["Edit"]
+        moveToInboxButton = application.tables.staticTexts["Move to inbox"]
         commentsButton = application.tables.staticTexts["Comments"]
         remindersButton = application.tables.staticTexts["Reminders"]
         cancelButton = application.tables.staticTexts["Cancel"]
     }
     
-    func clickOnEditButton() -> AddTaskFragmentScreen {
-        editButton.tap()
-        return AddTaskFragmentScreen()
+    func clickOnMoveToInboxButton() -> CompletedTasksFragmentScreen {
+        moveToInboxButton.tap()
+        return CompletedTasksFragmentScreen()
     }
     
     func clickOnCommentsButton() {

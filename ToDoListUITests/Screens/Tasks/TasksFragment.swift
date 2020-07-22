@@ -19,9 +19,15 @@ class TasksFragment: FragmentWithAddTaskButton {
         return self
     }
     
-    func clickOnTaskWithName(name: String) -> TaskOptionActionSheet {
+    func clickOnTaskWithName(name: String) -> UncompleatedTaskOptionActionSheet {
         taskIsPresent(name: name)
         application.tables.staticTexts[name].tap()
-        return TaskOptionActionSheet()
+        return UncompleatedTaskOptionActionSheet()
+    }
+    
+    func clickOnTaskWithNameIfCompleated(name: String) -> CompleatedTaskOptionActionSheet {
+        taskIsPresent(name: name)
+        application.tables.staticTexts[name].tap()
+        return CompleatedTaskOptionActionSheet()
     }
 }
