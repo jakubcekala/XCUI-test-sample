@@ -44,6 +44,11 @@ class ThemesScreen: PageObject {
     func clickOnOkAlertDialog() {
         okAlertDialog.tap()
     }
+    
+    func clickOnSettingsBackButton() -> SettingsScreen {
+        settingsButton.tap()
+        return SettingsScreen()
+    }
 
     enum ThemeType {
         case alizarinRed, vanadylBlue, skirretGreen, sunflowerYellow, rediantOrange, rosePink, midnightBlack
