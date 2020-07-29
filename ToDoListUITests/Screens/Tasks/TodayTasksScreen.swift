@@ -8,9 +8,9 @@
 
 import XCTest
 
-class CompletedTasksFragmentScreen: TasksFragment {
+class TodayTasksScreen: TasksScreen {
 
-    let fragmentName = "Completed"
+    let fragmentName = "Today"
     
     override init() {
         super.init()

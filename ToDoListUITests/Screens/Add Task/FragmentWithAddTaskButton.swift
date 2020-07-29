@@ -16,8 +16,8 @@ class FragmentWithAddTaskButton: PageObject {
         addTaskButton = XCUIApplication().buttons["Add Task"]
     }
     
-    func clickOnAddTaskButton() -> AddTaskFragmentScreen {
+    func clickOnAddTaskButton() -> AddTaskScreen {
         addTaskButton.tap()
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
 }

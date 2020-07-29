@@ -8,7 +8,7 @@
 
 import XCTest
 
-class CustomIntervalFragmentScreen: TasksFragment {
+class CustomIntervalScreen: TasksScreen {
     
     let fragmentName = "Custom Interval"
     

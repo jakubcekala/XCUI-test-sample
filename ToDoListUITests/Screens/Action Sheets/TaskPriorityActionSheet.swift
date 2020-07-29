@@ -20,12 +20,12 @@ class TaskPriorityActionSheet: PageObject {
         cancelButton = application.sheets["Task priority"].scrollViews.otherElements.buttons["Cancel"]
     }
     
-    func clickOnCancelButton() -> AddTaskFragmentScreen {
+    func clickOnCancelButton() -> AddTaskScreen {
         cancelButton.tap()
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
     
-    func selectStartPage(priority: Priority) -> AddTaskFragmentScreen {
+    func selectStartPage(priority: Priority) -> AddTaskScreen {
         switch priority {
         case .highest:
             priorityButtons["Highest"].tap()
@@ -38,7 +38,7 @@ class TaskPriorityActionSheet: PageObject {
         case .none:
             priorityButtons["None"].tap()
         }
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
     
     enum Priority {

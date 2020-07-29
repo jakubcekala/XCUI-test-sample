@@ -25,9 +25,9 @@ class CompleatedTaskOptionActionSheet: PageObject {
         cancelButton = application.tables.staticTexts["Cancel"]
     }
     
-    func clickOnMoveToInboxButton() -> CompletedTasksFragmentScreen {
+    func clickOnMoveToInboxButton() -> CompletedTasksScreen {
         moveToInboxButton.tap()
-        return CompletedTasksFragmentScreen()
+        return CompletedTasksScreen()
     }
     
     func clickOnCommentsButton() {

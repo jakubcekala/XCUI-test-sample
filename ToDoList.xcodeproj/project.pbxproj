@@ -101,21 +101,21 @@
 		62037A555E643865DCCD3F33 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC7B181B2DC875AF97CD49 /* Pods_ToDoList.framework */; platformFilter = ios; };
 		86336197EBFD98B1AAC5CD91 /* Pods_ToDoListWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E3FD3FFB4BD0B30642179D /* Pods_ToDoListWidget.framework */; };
 		D38D5D03248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38D5D02248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift */; };
-		D3BDD9FC2476A1BC004A49E0 /* OverviewFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */; };
+		D3BDD9FC2476A1BC004A49E0 /* OverviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9FB2476A1BC004A49E0 /* OverviewScreen.swift */; };
 		D3BDD9FF2476A1F4004A49E0 /* PageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */; };
-		D3BDDA032476B651004A49E0 /* TasksFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA022476B651004A49E0 /* TasksFragment.swift */; };
-		D3BDDA062476B698004A49E0 /* AllTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA052476B698004A49E0 /* AllTasksFragmentScreen.swift */; };
-		D3BDDA082477D82D004A49E0 /* TodayTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */; };
-		D3BDDA0B2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA0A2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift */; };
-		D3BDDA0D2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA0C2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift */; };
+		D3BDDA032476B651004A49E0 /* TasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA022476B651004A49E0 /* TasksScreen.swift */; };
+		D3BDDA062476B698004A49E0 /* AllTasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA052476B698004A49E0 /* AllTasksScreen.swift */; };
+		D3BDDA082477D82D004A49E0 /* TodayTasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA072477D82D004A49E0 /* TodayTasksScreen.swift */; };
+		D3BDDA0B2477D876004A49E0 /* TomorrowTasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA0A2477D876004A49E0 /* TomorrowTasksScreen.swift */; };
+		D3BDDA0D2477D890004A49E0 /* NextSevenDaysScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA0C2477D890004A49E0 /* NextSevenDaysScreen.swift */; };
 		D3BDDA0F2477D8A6004A49E0 /* CustomIntervalActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA0E2477D8A6004A49E0 /* CustomIntervalActionSheet.swift */; };
-		D3BDDA122477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */; };
+		D3BDDA122477D8CB004A49E0 /* CompletedTasksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA112477D8CB004A49E0 /* CompletedTasksScreen.swift */; };
 		D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */; };
 		D3C942D8247EED7000259C3F /* SettingsFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C942D7247EED7000259C3F /* SettingsFragmentScreen.swift */; };
-		D3CCA02C247EA6D60041D85A /* AddTaskFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */; };
-		D3D1732824C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */; };
+		D3CCA02C247EA6D60041D85A /* AddTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */; };
+		D3D1732824C8BA6E001A0763 /* CustomIntervalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1732724C8BA6E001A0763 /* CustomIntervalScreen.swift */; };
 		D3E4D10B24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4D10A24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift */; };
-		D3FB4F7724A653F100BE2FE2 /* ThemesFragmentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */; };
+		D3FB4F7724A653F100BE2FE2 /* ThemesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesScreen.swift */; };
 		D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */; };
 		D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */; };
 		D3FB4F7E24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */; };
@@ -299,21 +299,21 @@
 		D38D5D02248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncompleatedTaskOptionActionSheet.swift; sourceTree = "<group>"; };
 		D3BDD9F12476A0A2004A49E0 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BDD9F52476A0A2004A49E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewFragmentScreen.swift; sourceTree = "<group>"; };
+		D3BDD9FB2476A1BC004A49E0 /* OverviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewScreen.swift; sourceTree = "<group>"; };
 		D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageObject.swift; sourceTree = "<group>"; };
-		D3BDDA022476B651004A49E0 /* TasksFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFragment.swift; sourceTree = "<group>"; };
-		D3BDDA052476B698004A49E0 /* AllTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksFragmentScreen.swift; sourceTree = "<group>"; };
-		D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTasksFragmentScreen.swift; sourceTree = "<group>"; };
-		D3BDDA0A2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomorrowTasksFragmentScreen.swift; sourceTree = "<group>"; };
-		D3BDDA0C2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSevenDaysFragmentScreen.swift; sourceTree = "<group>"; };
+		D3BDDA022476B651004A49E0 /* TasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksScreen.swift; sourceTree = "<group>"; };
+		D3BDDA052476B698004A49E0 /* AllTasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTasksScreen.swift; sourceTree = "<group>"; };
+		D3BDDA072477D82D004A49E0 /* TodayTasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTasksScreen.swift; sourceTree = "<group>"; };
+		D3BDDA0A2477D876004A49E0 /* TomorrowTasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomorrowTasksScreen.swift; sourceTree = "<group>"; };
+		D3BDDA0C2477D890004A49E0 /* NextSevenDaysScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSevenDaysScreen.swift; sourceTree = "<group>"; };
 		D3BDDA0E2477D8A6004A49E0 /* CustomIntervalActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntervalActionSheet.swift; sourceTree = "<group>"; };
-		D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksFragmentScreen.swift; sourceTree = "<group>"; };
+		D3BDDA112477D8CB004A49E0 /* CompletedTasksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksScreen.swift; sourceTree = "<group>"; };
 		D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentWithAddTaskButton.swift; sourceTree = "<group>"; };
 		D3C942D7247EED7000259C3F /* SettingsFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFragmentScreen.swift; sourceTree = "<group>"; };
-		D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskFragmentScreen.swift; sourceTree = "<group>"; };
-		D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntervalFragmentScreen.swift; sourceTree = "<group>"; };
+		D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskScreen.swift; sourceTree = "<group>"; };
+		D3D1732724C8BA6E001A0763 /* CustomIntervalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntervalScreen.swift; sourceTree = "<group>"; };
 		D3E4D10A24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleatedTaskOptionActionSheet.swift; sourceTree = "<group>"; };
-		D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesFragmentScreen.swift; sourceTree = "<group>"; };
+		D3FB4F7624A653F100BE2FE2 /* ThemesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksTests.swift; sourceTree = "<group>"; };
 		D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeActionSheet.swift; sourceTree = "<group>"; };
 		D3FB4F7D24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriorityActionSheet.swift; sourceTree = "<group>"; };
@@ -598,10 +598,10 @@
 				D3D1732624C8B9E3001A0763 /* Action Sheets */,
 				D3CCA02A247EA6BA0041D85A /* Add Task */,
 				D3BDDA092477D859004A49E0 /* Tasks */,
-				D3BDD9FB2476A1BC004A49E0 /* OverviewFragmentScreen.swift */,
+				D3BDD9FB2476A1BC004A49E0 /* OverviewScreen.swift */,
 				D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */,
 				D3C942D7247EED7000259C3F /* SettingsFragmentScreen.swift */,
-				D3FB4F7624A653F100BE2FE2 /* ThemesFragmentScreen.swift */,
+				D3FB4F7624A653F100BE2FE2 /* ThemesScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -609,13 +609,13 @@
 		D3BDDA092477D859004A49E0 /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
-				D3BDDA022476B651004A49E0 /* TasksFragment.swift */,
-				D3BDDA052476B698004A49E0 /* AllTasksFragmentScreen.swift */,
-				D3BDDA072477D82D004A49E0 /* TodayTasksFragmentScreen.swift */,
-				D3BDDA0A2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift */,
-				D3BDDA0C2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift */,
-				D3BDDA112477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift */,
-				D3D1732724C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift */,
+				D3BDDA022476B651004A49E0 /* TasksScreen.swift */,
+				D3BDDA052476B698004A49E0 /* AllTasksScreen.swift */,
+				D3BDDA072477D82D004A49E0 /* TodayTasksScreen.swift */,
+				D3BDDA0A2477D876004A49E0 /* TomorrowTasksScreen.swift */,
+				D3BDDA0C2477D890004A49E0 /* NextSevenDaysScreen.swift */,
+				D3BDDA112477D8CB004A49E0 /* CompletedTasksScreen.swift */,
+				D3D1732724C8BA6E001A0763 /* CustomIntervalScreen.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -624,7 +624,7 @@
 			isa = PBXGroup;
 			children = (
 				D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */,
-				D3CCA02B247EA6D60041D85A /* AddTaskFragmentScreen.swift */,
+				D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */,
 			);
 			path = "Add Task";
 			sourceTree = "<group>";
@@ -1115,23 +1115,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BDDA062476B698004A49E0 /* AllTasksFragmentScreen.swift in Sources */,
-				D3CCA02C247EA6D60041D85A /* AddTaskFragmentScreen.swift in Sources */,
-				D3BDDA082477D82D004A49E0 /* TodayTasksFragmentScreen.swift in Sources */,
+				D3BDDA062476B698004A49E0 /* AllTasksScreen.swift in Sources */,
+				D3CCA02C247EA6D60041D85A /* AddTaskScreen.swift in Sources */,
+				D3BDDA082477D82D004A49E0 /* TodayTasksScreen.swift in Sources */,
 				D38D5D03248ECE36009CD18C /* UncompleatedTaskOptionActionSheet.swift in Sources */,
-				D3D1732824C8BA6E001A0763 /* CustomIntervalFragmentScreen.swift in Sources */,
+				D3D1732824C8BA6E001A0763 /* CustomIntervalScreen.swift in Sources */,
 				D3BDD9FF2476A1F4004A49E0 /* PageObject.swift in Sources */,
 				D3BDDA14247E916D004A49E0 /* FragmentWithAddTaskButton.swift in Sources */,
 				D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */,
 				D3BDDA0F2477D8A6004A49E0 /* CustomIntervalActionSheet.swift in Sources */,
-				D3BDDA0B2477D876004A49E0 /* TomorrowTasksFragmentScreen.swift in Sources */,
-				D3FB4F7724A653F100BE2FE2 /* ThemesFragmentScreen.swift in Sources */,
+				D3BDDA0B2477D876004A49E0 /* TomorrowTasksScreen.swift in Sources */,
+				D3FB4F7724A653F100BE2FE2 /* ThemesScreen.swift in Sources */,
 				D3C942D8247EED7000259C3F /* SettingsFragmentScreen.swift in Sources */,
-				D3BDD9FC2476A1BC004A49E0 /* OverviewFragmentScreen.swift in Sources */,
-				D3BDDA0D2477D890004A49E0 /* NextSevenDaysFragmentScreen.swift in Sources */,
-				D3BDDA122477D8CB004A49E0 /* CompletedTasksFragmentScreen.swift in Sources */,
+				D3BDD9FC2476A1BC004A49E0 /* OverviewScreen.swift in Sources */,
+				D3BDDA0D2477D890004A49E0 /* NextSevenDaysScreen.swift in Sources */,
+				D3BDDA122477D8CB004A49E0 /* CompletedTasksScreen.swift in Sources */,
 				D3E4D10B24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift in Sources */,
-				D3BDDA032476B651004A49E0 /* TasksFragment.swift in Sources */,
+				D3BDDA032476B651004A49E0 /* TasksScreen.swift in Sources */,
 				D3FB4F7E24BF57B700BE2FE2 /* TaskPriorityActionSheet.swift in Sources */,
 				D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */,
 			);

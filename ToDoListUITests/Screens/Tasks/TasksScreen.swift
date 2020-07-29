@@ -8,11 +8,11 @@
 
 import XCTest
 
-class TasksFragment: FragmentWithAddTaskButton {
+class TasksScreen: FragmentWithAddTaskButton {
     
     let application = XCUIApplication()
     
-    func taskIsPresent(name: String) -> TasksFragment {
+    func taskIsPresent(name: String) -> TasksScreen {
         if(!application.tables.staticTexts["name"].exists){
             XCTAssertThrowsError(name + " task does not exist")
         }

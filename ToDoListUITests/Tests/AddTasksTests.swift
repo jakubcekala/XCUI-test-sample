@@ -16,21 +16,21 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddCorrectTask() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
             .clickOnSaveButtonWithName()
     }
     
     func testAddTaskWithoutName() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnAddTaskButton()
             .clickOnSaveButtonWithoutName()
             .errorDialogIsVisible()
     }
     
     func testAddCorrectTaskWithDateAndTime() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
             .clickOnDateAndTime()
@@ -40,7 +40,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddCorrectTaskWithPriority() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
             .clickOnPriorityButtonNotSet().selectStartPage(priority: TaskPriorityActionSheet.Priority.high)
@@ -48,7 +48,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddTaskFromAllTasks() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnAllTasksTile()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
@@ -56,7 +56,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddTaskFromTodayTasks() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnTodayTile()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
@@ -64,7 +64,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddTaskFromTomorrowTasks() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnTomorrowTile()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
@@ -72,7 +72,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddTaskFromNextSevenDaysTasks() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnNextSevenDaysTile()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")
@@ -80,7 +80,7 @@ class AddTasksTests: XCTestCase {
     }
     
     func testAddTaskFromCompletedTasks() throws {
-        OverviewFragmentScreen()
+        OverviewScreen()
             .clickOnCompletedTile()
             .clickOnAddTaskButton()
             .typeTaskContentWhenIsFocused(taskTile: "Test")

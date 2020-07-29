@@ -25,14 +25,14 @@ class CustomIntervalActionSheet: PageObject {
         endDatePicker = application.datePickers.pickerWheels.element(boundBy: 1)
     }
     
-    func clickOnCancelButton() -> OverviewFragmentScreen {
+    func clickOnCancelButton() -> OverviewScreen {
         cancelButton.tap()
-        return OverviewFragmentScreen()
+        return OverviewScreen()
     }
     
-    func clickOnDoneButton() -> CustomIntervalFragmentScreen {
+    func clickOnDoneButton() -> CustomIntervalScreen {
         doneButton.tap()
-        return CustomIntervalFragmentScreen()
+        return CustomIntervalScreen()
     }
     
     func selectStartDate(startDate: String) -> CustomIntervalActionSheet {

@@ -1,16 +1,16 @@
 //
-//  AllTasksFragment.swift
+//  File.swift
 //  ToDoListUITests
 //
-//  Created by Jakub on 21/05/2020.
+//  Created by Jakub on 22/05/2020.
 //  Copyright © 2020 Radu Ursache - RanduSoft. All rights reserved.
 //
 
 import XCTest
 
-class AllTasksFragmentScreen: TasksFragment {
-    
-    let fragmentName = "All Tasks"
+class NextSevenDaysScreen: TasksScreen {
+
+    let fragmentName = "Next 7 Days"
     
     override init() {
         super.init()

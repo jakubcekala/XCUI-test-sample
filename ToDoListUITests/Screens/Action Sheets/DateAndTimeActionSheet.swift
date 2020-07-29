@@ -29,14 +29,14 @@ class DateAndTimeActionSheet: PageObject {
         amPmPicker = application.datePickers.pickerWheels.element(boundBy: 3)
     }
 
-    func clickOnNoDateButton() -> AddTaskFragmentScreen {
+    func clickOnNoDateButton() -> AddTaskScreen {
         noDateButton.tap()
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
     
-    func clickOnSaveButton() -> AddTaskFragmentScreen {
+    func clickOnSaveButton() -> AddTaskScreen {
         saveButton.tap()
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
     
     func selectDay(day: String) -> DateAndTimeActionSheet {

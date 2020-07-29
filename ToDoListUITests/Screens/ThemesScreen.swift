@@ -8,6 +8,6 @@
 
 import Foundation
 
-class ThemesFragmentScreen {
+class ThemesScreen {
     
 }

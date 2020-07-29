@@ -8,7 +8,7 @@
 
 import XCTest
 
-class AddTaskFragmentScreen {
+class AddTaskScreen {
     
     let application = XCUIApplication()
     
@@ -39,7 +39,7 @@ class AddTaskFragmentScreen {
         return ErrorNameDialog()
     }
     
-    func typeTaskContentWhenIsFocused(taskTile: String) -> AddTaskFragmentScreen {
+    func typeTaskContentWhenIsFocused(taskTile: String) -> AddTaskScreen {
         XCUIApplication().typeText(taskTile)
         return self
     }
@@ -68,9 +68,9 @@ class AddTaskFragmentScreen {
             errorDescLabel = application.alerts["Error"].scrollViews.otherElements.staticTexts["You must name your task to save it"]
         }
         
-        func clickOnOkButton() -> AddTaskFragmentScreen {
+        func clickOnOkButton() -> AddTaskScreen {
             okButton.tap()
-            return AddTaskFragmentScreen()
+            return AddTaskScreen()
         }
         
         func errorDialogIsVisible() -> ErrorNameDialog {

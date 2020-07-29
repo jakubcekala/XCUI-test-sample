@@ -25,9 +25,9 @@ class UncompleatedTaskOptionActionSheet: PageObject {
         cancelButton = application.tables.staticTexts["Cancel"]
     }
     
-    func clickOnEditButton() -> AddTaskFragmentScreen {
+    func clickOnEditButton() -> AddTaskScreen {
         editButton.tap()
-        return AddTaskFragmentScreen()
+        return AddTaskScreen()
     }
     
     func clickOnCommentsButton() {

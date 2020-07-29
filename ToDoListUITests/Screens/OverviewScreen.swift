@@ -8,7 +8,7 @@
 
 import XCTest
 
-class OverviewFragmentScreen: FragmentWithAddTaskButton {
+class OverviewScreen: FragmentWithAddTaskButton {
     
     let application = XCUIApplication()
     
@@ -36,24 +36,24 @@ class OverviewFragmentScreen: FragmentWithAddTaskButton {
         }
     }
     
-    func clickOnAllTasksTile() -> AllTasksFragmentScreen {
+    func clickOnAllTasksTile() -> AllTasksScreen {
         allTasksTile.tap()
-        return AllTasksFragmentScreen()
+        return AllTasksScreen()
     }
     
-    func clickOnTodayTile() -> TodayTasksFragmentScreen {
+    func clickOnTodayTile() -> TodayTasksScreen {
         todayTile.tap()
-        return TodayTasksFragmentScreen()
+        return TodayTasksScreen()
     }
     
-    func clickOnTomorrowTile() -> TomorrowTasksFragmentScreen {
+    func clickOnTomorrowTile() -> TomorrowTasksScreen {
         tomorrowTile.tap()
-        return TomorrowTasksFragmentScreen()
+        return TomorrowTasksScreen()
     }
     
-    func clickOnNextSevenDaysTile() -> NextSevenDaysFragmentScreen {
+    func clickOnNextSevenDaysTile() -> NextSevenDaysScreen {
         nextSevenDaysTile.tap()
-        return NextSevenDaysFragmentScreen()
+        return NextSevenDaysScreen()
     }
     
     func clickOnCustomIntervalTile() -> CustomIntervalActionSheet {
@@ -61,13 +61,13 @@ class OverviewFragmentScreen: FragmentWithAddTaskButton {
         return CustomIntervalActionSheet()
     }
     
-    func clickOnCompletedTile() -> CompletedTasksFragmentScreen {
+    func clickOnCompletedTile() -> CompletedTasksScreen {
         completedTile.tap()
-        return CompletedTasksFragmentScreen()
+        return CompletedTasksScreen()
     }
     
-    func clickOnSettingsButton() -> SettingsFragmentScreen {
+    func clickOnSettingsButton() -> SettingsScreen {
         settingsButton.tap()
-        return SettingsFragmentScreen()
+        return SettingsScreen()
     }
 }
