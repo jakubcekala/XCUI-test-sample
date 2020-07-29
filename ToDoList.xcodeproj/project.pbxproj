@@ -115,6 +115,8 @@
 		D3CCA02C247EA6D60041D85A /* AddTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */; };
 		D3D1732824C8BA6E001A0763 /* CustomIntervalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1732724C8BA6E001A0763 /* CustomIntervalScreen.swift */; };
 		D3E4D10B24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4D10A24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift */; };
+		D3E4D10F24D1EF10007B5C4C /* TaskCommentsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4D10E24D1EF10007B5C4C /* TaskCommentsScreen.swift */; };
+		D3E4D11124D1EF2D007B5C4C /* TaskRemindersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4D11024D1EF2D007B5C4C /* TaskRemindersScreen.swift */; };
 		D3FB4F7724A653F100BE2FE2 /* ThemesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7624A653F100BE2FE2 /* ThemesScreen.swift */; };
 		D3FB4F7A24BE3E4500BE2FE2 /* AddTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */; };
 		D3FB4F7C24BE435800BE2FE2 /* DateAndTimeActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */; };
@@ -313,6 +315,8 @@
 		D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskScreen.swift; sourceTree = "<group>"; };
 		D3D1732724C8BA6E001A0763 /* CustomIntervalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntervalScreen.swift; sourceTree = "<group>"; };
 		D3E4D10A24C8C5D2007B5C4C /* CompleatedTaskOptionActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleatedTaskOptionActionSheet.swift; sourceTree = "<group>"; };
+		D3E4D10E24D1EF10007B5C4C /* TaskCommentsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCommentsScreen.swift; sourceTree = "<group>"; };
+		D3E4D11024D1EF2D007B5C4C /* TaskRemindersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRemindersScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7624A653F100BE2FE2 /* ThemesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesScreen.swift; sourceTree = "<group>"; };
 		D3FB4F7924BE3E4500BE2FE2 /* AddTasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTasksTests.swift; sourceTree = "<group>"; };
 		D3FB4F7B24BE435800BE2FE2 /* DateAndTimeActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeActionSheet.swift; sourceTree = "<group>"; };
@@ -596,7 +600,7 @@
 			isa = PBXGroup;
 			children = (
 				D3D1732624C8B9E3001A0763 /* Action Sheets */,
-				D3CCA02A247EA6BA0041D85A /* Add Task */,
+				D3CCA02A247EA6BA0041D85A /* AddEdit Task */,
 				D3BDDA092477D859004A49E0 /* Tasks */,
 				D3BDD9FB2476A1BC004A49E0 /* OverviewScreen.swift */,
 				D3BDD9FE2476A1F4004A49E0 /* PageObject.swift */,
@@ -620,13 +624,15 @@
 			path = Tasks;
 			sourceTree = "<group>";
 		};
-		D3CCA02A247EA6BA0041D85A /* Add Task */ = {
+		D3CCA02A247EA6BA0041D85A /* AddEdit Task */ = {
 			isa = PBXGroup;
 			children = (
 				D3BDDA13247E916D004A49E0 /* FragmentWithAddTaskButton.swift */,
 				D3CCA02B247EA6D60041D85A /* AddTaskScreen.swift */,
+				D3E4D10E24D1EF10007B5C4C /* TaskCommentsScreen.swift */,
+				D3E4D11024D1EF2D007B5C4C /* TaskRemindersScreen.swift */,
 			);
-			path = "Add Task";
+			path = "AddEdit Task";
 			sourceTree = "<group>";
 		};
 		D3D1732624C8B9E3001A0763 /* Action Sheets */ = {
@@ -1115,6 +1121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E4D10F24D1EF10007B5C4C /* TaskCommentsScreen.swift in Sources */,
 				D3BDDA062476B698004A49E0 /* AllTasksScreen.swift in Sources */,
 				D3CCA02C247EA6D60041D85A /* AddTaskScreen.swift in Sources */,
 				D3BDDA082477D82D004A49E0 /* TodayTasksScreen.swift in Sources */,
@@ -1127,6 +1134,7 @@
 				D3BDDA0B2477D876004A49E0 /* TomorrowTasksScreen.swift in Sources */,
 				D3FB4F7724A653F100BE2FE2 /* ThemesScreen.swift in Sources */,
 				D3C942D8247EED7000259C3F /* SettingsFragmentScreen.swift in Sources */,
+				D3E4D11124D1EF2D007B5C4C /* TaskRemindersScreen.swift in Sources */,
 				D3BDD9FC2476A1BC004A49E0 /* OverviewScreen.swift in Sources */,
 				D3BDDA0D2477D890004A49E0 /* NextSevenDaysScreen.swift in Sources */,
 				D3BDDA122477D8CB004A49E0 /* CompletedTasksScreen.swift in Sources */,
