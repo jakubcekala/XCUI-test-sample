@@ -60,6 +60,9 @@ class DateAndTimeActionSheet: PageObject {
     }
     
     func setDataOnPicker(day: String, hour: String, minute: String, amPm: String) -> DateAndTimeActionSheet {
-        return self.selectDay(day: day).selectHour(hour: hour).selectMinute(minute: minute).selectAmPm(amPm: amPm)
+        return self.selectDay(day: day)
+            .selectHour(hour: hour)
+            .selectMinute(minute: minute)
+            .selectAmPm(amPm: amPm)
     }
 }
